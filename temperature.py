@@ -27,7 +27,7 @@ def main():
     for city in cities:
         temp = get_weather(api_key, city)
         if temp is not None:
-            print(f"The temperature in these {city} is {temp}°C")
+            print(f"The temperature in  {city} is {temp}°C")
 
 if __name__ == "__main__":
     main()
