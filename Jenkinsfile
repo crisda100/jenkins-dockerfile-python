@@ -30,8 +30,8 @@ pipeline {
 
    post {
         always {
-            echo 'Pipeline completed. and remove docker image'
-            sh 'docker rmi crisda/temperatures'
+            echo 'Pipeline completed. and remove docker imag'
+            // sh 'docker rmi crisda/temperatures'
         }
         success {
             echo 'Pipeline executed successfully.'
