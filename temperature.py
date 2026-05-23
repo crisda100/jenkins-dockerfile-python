@@ -18,7 +18,7 @@ def get_weather(api_key, city):
 
 def main():
     # API key OpenWeatherMap
-    api_key = "63f99e64f995efd1b8fc94bc462b2a51"
+    api_key = "2a9777d4b8013f50a7505792808b21ca"
 
     # Cities to consult
     cities = ["New York", "Madrid", "Paris"]
