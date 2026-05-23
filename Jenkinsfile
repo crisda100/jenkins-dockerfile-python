@@ -1,5 +1,6 @@
 pipeline {
     agent{
+
         dockerfile
         {
             filename 'Dockerfile'
@@ -29,7 +30,8 @@ pipeline {
 
    post {
         always {
-            echo 'Pipeline completed.'
+            echo 'Pipeline completed. and remove docker image'
+            sh 'docker rmi crisda/temperatures'
         }
         success {
             echo 'Pipeline executed successfully.'
