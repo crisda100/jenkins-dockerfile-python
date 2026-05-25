@@ -31,6 +31,7 @@ pipeline {
    post {
         always {
             echo 'Pipeline completed. and remove docker imag'
+            sh 'docker images --user jenkins'
             // sh 'docker rmi crisda/temperatures'
         }
         success {
