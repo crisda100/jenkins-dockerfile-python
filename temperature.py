@@ -21,7 +21,7 @@ def main():
     api_key = "2a9777d4b8013f50a7505792808b21ca"
 
     # Cities to consult
-    cities = ["New York", "Madrid", "Paris", "Medellin","Bogota","Cartagena"]
+    cities = ["New York", "Madrid", "Paris", "Medellin","Bogota","Cartagena","Cali]
 
     # Get and display the temperature in Celsius for each city
     for city in cities:
